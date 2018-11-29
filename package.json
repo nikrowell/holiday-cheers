@@ -1,0 +1,15 @@
+{
+  "name": "holiday-cheers",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "rm -fr .cache/ && parcel index.html --open --no-hmr",
+    "build": "rm -fr dist/* && parcel build index.html"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.3",
+    "ogl": "0.0.9"
+  },
+  "devDependencies": {
+
+  }
+}
